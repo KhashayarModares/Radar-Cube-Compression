@@ -1,0 +1,191 @@
+{
+  "role": "validation",
+  "legacy_dct_bpcs": 4.0667724609375,
+  "lossless_adc_bpcs": 19.92749491384474,
+  "H0_robust_new_floor_per_map": {
+    "ca_cfar": 1.01,
+    "os_cfar": 1.005
+  },
+  "receiver_fragility_control": {
+    "strict_lost_fraction": 0.016510878574528817,
+    "robust_lost_fraction": 0.0,
+    "strict_new_per_map": 11.771186440677965,
+    "dF1": 0.001027682959496734,
+    "meaning": "decision changes caused by independent noise 20 dB below the receiver noise"
+  },
+  "operating_points": {
+    "closed_g0_b2": {
+      "name": "A",
+      "pre_registered": true,
+      "bpcs": 1.3608356761393574,
+      "bpcs_ci": [
+        1.1332926925823779,
+        1.602287568583825
+      ],
+      "bpcs_kt": 1.517516797545266,
+      "ratio_vs_raw_32bit": 23.514962578570003,
+      "ratio_vs_lossless": 14.643571786990723,
+      "learned_rate_saving": 0.10324836051854969,
+      "ca_cfar": {
+        "robust_lost_le_1pct": true,
+        "robust_new_le_H0_floor_plus_1": true,
+        "no_robust_label_lost": false,
+        "bitrate_below_legacy": true,
+        "robust_lost_fraction": 0.0026376215311862466,
+        "robust_lost_ci": [
+          0.00229505827182786,
+          0.0029958119751328656
+        ],
+        "strict_lost_fraction": 0.12421491860844028,
+        "strict_new_per_map": 93.15395480225989,
+        "robust_new_per_map": 0.0,
+        "labels_lost_strict": 5,
+        "labels_detected_original": 1358,
+        "passed": false
+      },
+      "generalization": {
+        "os_cfar_robust_lost_le_1pct": false,
+        "os_cfar_robust_new_le_H0_floor_plus_1": false,
+        "alpha_01_robust_lost_le_1pct": false,
+        "os_cfar_robust_lost_fraction": 0.09239607021298732,
+        "alpha_01_robust_lost_fraction": 0.013859701185205821,
+        "passed": false
+      },
+      "perception": {
+        "F1_drop_le_gate": true,
+        "mAR_drop_le_gate": true,
+        "F1": 0.5404015201874105,
+        "dF1": -0.01001797595255316,
+        "dF1_ci": [
+          -0.02114427710028126,
+          0.00028301143176390995
+        ],
+        "dmAR": -0.007257540934506368,
+        "passed": true
+      },
+      "timing_ms": {
+        "encode_median": 132.03372852876782,
+        "decode_median": 6.019485532306135,
+        "entropy_model_median": 52.40165500435978
+      },
+      "passed": false
+    },
+    "closed_strict2_g0_b2": {
+      "name": "B",
+      "pre_registered": true,
+      "bpcs": 2.412226891787039,
+      "bpcs_ci": [
+        2.1167111600769704,
+        2.7130862230592685
+      ],
+      "bpcs_kt": 2.8002742629940225,
+      "ratio_vs_raw_32bit": 13.265750460270173,
+      "ratio_vs_lossless": 8.26103671329273,
+      "learned_rate_saving": 0.13857477331241397,
+      "ca_cfar": {
+        "robust_lost_le_1pct": true,
+        "robust_new_le_H0_floor_plus_1": true,
+        "no_robust_label_lost": false,
+        "bitrate_below_legacy": true,
+        "robust_lost_fraction": 0.0003613569951031859,
+        "robust_lost_ci": [
+          0.00018264043149690974,
+          0.0005600384841217663
+        ],
+        "strict_lost_fraction": 0.013254945759242158,
+        "strict_new_per_map": 0.4830508474576271,
+        "robust_new_per_map": 0.007062146892655367,
+        "labels_lost_strict": 4,
+        "labels_detected_original": 1358,
+        "passed": false
+      },
+      "generalization": {
+        "os_cfar_robust_lost_le_1pct": false,
+        "os_cfar_robust_new_le_H0_floor_plus_1": false,
+        "alpha_01_robust_lost_le_1pct": true,
+        "os_cfar_robust_lost_fraction": 0.07497163637084268,
+        "alpha_01_robust_lost_fraction": 0.005886663557797709,
+        "passed": false
+      },
+      "perception": {
+        "F1_drop_le_gate": true,
+        "mAR_drop_le_gate": true,
+        "F1": 0.5349501704032619,
+        "dF1": -0.015469325736701789,
+        "dF1_ci": [
+          -0.026749489701037285,
+          -0.004162069476371726
+        ],
+        "dmAR": -0.012726303601409583,
+        "passed": true
+      },
+      "timing_ms": {
+        "encode_median": 121.83541303966194,
+        "decode_median": 6.025256589055061,
+        "entropy_model_median": 65.38855750113726
+      },
+      "passed": false
+    },
+    "closed_full_b2": {
+      "name": "C (beta 2)",
+      "pre_registered": true,
+      "bpcs": 3.2576004866152832,
+      "bpcs_ci": [
+        3.224161325199499,
+        3.2991605475564563
+      ],
+      "bpcs_kt": 3.5033937638762307,
+      "ratio_vs_raw_32bit": 9.823181243826706,
+      "ratio_vs_lossless": 6.117231071066616,
+      "learned_rate_saving": 0.07015862156156738,
+      "ca_cfar": {
+        "robust_lost_le_1pct": true,
+        "robust_new_le_H0_floor_plus_1": true,
+        "no_robust_label_lost": true,
+        "bitrate_below_legacy": true,
+        "robust_lost_fraction": 8.535992010311478e-06,
+        "robust_lost_ci": [
+          0.0,
+          2.7306088114873195e-05
+        ],
+        "strict_lost_fraction": 0.13967248669164503,
+        "strict_new_per_map": 25.163841807909606,
+        "robust_new_per_map": 0.0,
+        "labels_lost_strict": 2,
+        "labels_detected_original": 1358,
+        "passed": true
+      },
+      "generalization": {
+        "os_cfar_robust_lost_le_1pct": false,
+        "os_cfar_robust_new_le_H0_floor_plus_1": true,
+        "alpha_01_robust_lost_le_1pct": false,
+        "os_cfar_robust_lost_fraction": 0.0171321274455889,
+        "alpha_01_robust_lost_fraction": 0.012615144229313405,
+        "passed": false
+      },
+      "perception": {
+        "F1_drop_le_gate": true,
+        "mAR_drop_le_gate": true,
+        "F1": 0.5514207712360879,
+        "dF1": 0.0010012750961242434,
+        "dF1_ci": [
+          -0.005657982665889338,
+          0.008974863655258238
+        ],
+        "dmAR": 0.00071790563760743,
+        "passed": true
+      },
+      "timing_ms": {
+        "encode_median": 32.60958904866129,
+        "decode_median": 3.8964065024629235,
+        "entropy_model_median": 127.04197247512639
+      },
+      "passed": false
+    }
+  },
+  "pre_registered_points_passed": {
+    "closed_g0_b2": false,
+    "closed_strict2_g0_b2": false,
+    "closed_full_b2": false
+  }
+}

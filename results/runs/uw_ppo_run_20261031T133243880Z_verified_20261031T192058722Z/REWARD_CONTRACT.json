@@ -1,0 +1,11 @@
+{
+  "unmatched_scale_per_tile": 1.0,
+  "label_miss": 8.0,
+  "global_miss": "8/64 per tile",
+  "score_loss": "per 3 dB of robust label score",
+  "robust_lost": 1.0,
+  "robust_new": 1.0,
+  "rate": "5*price*tile_bits/(cap share)",
+  "nmse": 0.5,
+  "hard_bitrate_cap": 4.6
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# run outputs written by the experiment scripts
+outputs/
+
+# third-party files placed by scripts/setup_third_party.py (not redistributed)
+tools/*_gpu/FFTRadNet.py
+tools/*_gpu/config_FFTRadNet_192_56.json
+tools/*_gpu/fftradnet_state_dict.pt
+tools/*_gpu/adaradar_4bit_state_dict.pt
+
+# datasets and downloaded checkpoints
+data/
+*.pth

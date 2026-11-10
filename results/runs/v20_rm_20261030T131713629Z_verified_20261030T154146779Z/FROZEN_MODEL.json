@@ -1,0 +1,35 @@
+{
+  "completed": true,
+  "checkpoint": "entropy_model_v20.pt",
+  "checkpoint_sha256": "a9ba8d8a1d83894e4ca855b6b5ffcc05a7ce34ca09cd7f060619e8c0db1e5c65",
+  "selected_epoch": 8,
+  "entropy_selection_cubes": 118,
+  "anchor_checkpoint_sha256": "2653cfc6536cda41fff5f1cc17ac5194e81dcad16330e907fa1389c7d1e538c9",
+  "gamma_selected": 0.0,
+  "fftradnet_finetuned": {
+    "proposed": {
+      "checkpoint": "fftradnet_ft_proposed.pt",
+      "sha256": "bd48795ff8dd05a596089a82c24ddd91726b5c1ad87935ed420fefe5adb20a0f",
+      "selected_epoch": 0,
+      "validation_F1_official": 0.5287561843561602,
+      "validation_F1_selected": 0.5287561843561602
+    },
+    "adaradar": {
+      "checkpoint": "fftradnet_ft_adaradar.pt",
+      "sha256": "37c63f1691037b8329c9271be7934be9bfba1d2f9435d1680aea9e3cfa130dd5",
+      "selected_epoch": 0,
+      "validation_F1_official": 0.523622142814037,
+      "validation_F1_selected": 0.523622142814037
+    },
+    "original": {
+      "checkpoint": "fftradnet_ft_original.pt",
+      "sha256": "9dad909b55dc15604d67a31f60e1b7ed4e4e5217550e7e3206278b1a1fb74334",
+      "selected_epoch": 0,
+      "validation_F1_official": 0.5405387761853517,
+      "validation_F1_selected": 0.5405387761853517
+    },
+    "train_cubes": 692,
+    "validation_cubes": 229
+  },
+  "test_used_for_selection": false
+}

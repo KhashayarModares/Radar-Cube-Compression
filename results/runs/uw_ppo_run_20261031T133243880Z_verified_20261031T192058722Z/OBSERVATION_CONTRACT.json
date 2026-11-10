@@ -1,0 +1,30 @@
+{
+  "raw_dimension": 26,
+  "selected_dimension": 23,
+  "selected": [
+    "doppler_tile_center",
+    "range_frequency_tile_center",
+    "block_log_energy_ratio",
+    "spectral_top10_energy_fraction",
+    "spectral_top1_energy_fraction",
+    "spectral_entropy_normalized",
+    "spectral_peak_to_mean_log",
+    "block_energy_fraction",
+    "weak_peak_frac",
+    "cfar_margin",
+    "bg_spread",
+    "peak_avail",
+    "cube_mean_spectral_concentration",
+    "cube_block_log_energy_std",
+    "cube_spectral_concentration_std",
+    "allocation_mean_keep_fraction",
+    "allocation_mean_q_div_12",
+    "current_keep_fraction",
+    "current_q_div_12",
+    "edit_rounds_remaining",
+    "rate_price",
+    "predicted_margin_db",
+    "predicted_snr_loss_db"
+  ],
+  "source_partition": "TRAIN only"
+}

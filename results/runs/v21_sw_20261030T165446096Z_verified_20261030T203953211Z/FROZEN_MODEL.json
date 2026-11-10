@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "checkpoint": "entropy_model_v20.pt",
+  "checkpoint_sha256": "a9ba8d8a1d83894e4ca855b6b5ffcc05a7ce34ca09cd7f060619e8c0db1e5c65",
+  "source": "V20 run v20_rm_20261030T131713629Z, selected epoch 8",
+  "anchor_checkpoint_sha256": "2653cfc6536cda41fff5f1cc17ac5194e81dcad16330e907fa1389c7d1e538c9",
+  "gamma_selected": {
+    "1.4541": 0.0,
+    "2.1064": 2.0,
+    "2.6667": 3.0
+  },
+  "trained_in_this_run": false,
+  "test_used_for_selection": false
+}

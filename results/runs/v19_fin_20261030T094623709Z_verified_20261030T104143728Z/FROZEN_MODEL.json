@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "checkpoint": "entropy_model.pt",
+  "checkpoint_sha256": "2653cfc6536cda41fff5f1cc17ac5194e81dcad16330e907fa1389c7d1e538c9",
+  "source": "V17 publication run v17_pub_20261030T001402535Z, selected epoch 15",
+  "trained_in_this_run": false,
+  "test_used_for_selection": false
+}

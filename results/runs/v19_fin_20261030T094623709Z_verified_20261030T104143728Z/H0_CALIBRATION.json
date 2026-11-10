@@ -1,0 +1,41 @@
+{
+  "alphas": {
+    "a1": 2.618353236760767,
+    "a01": 2.8825526478262398
+  },
+  "alphas_db": {
+    "a1": 4.1802823596091985,
+    "a01": 4.597772481268807
+  },
+  "H0_maps": 200,
+  "H0_peaks_per_map": 4714.305,
+  "H0_robust_new_per_map": {
+    "a1": 0.01,
+    "a01": 0.0
+  },
+  "legacy_factors_false_peaks_per_map": {
+    "1.25": 4544.44,
+    "2.0": 154.005,
+    "4.0": 0.0,
+    "8.0": 0.0,
+    "16.0": 0.0,
+    "32.0": 0.0
+  },
+  "noise_model": "white complex Gaussian ADC, unit variance; CA-CFAR score is scale invariant",
+  "caveat": "Real receiver noise may be coloured in range; real-map peak counts are reported separately",
+  "os_cfar": {
+    "alphas": {
+      "a1": 2.280162153531239,
+      "a01": 2.4986965554826406
+    },
+    "alphas_db": {
+      "a1": 3.579657329126196,
+      "a01": 3.9771351811878914
+    },
+    "H0_peaks_per_map": 4714.305,
+    "H0_robust_new_per_map": {
+      "a1": 0.005,
+      "a01": 0.0
+    }
+  }
+}

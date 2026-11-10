@@ -1,0 +1,21 @@
+{
+  "found": {
+    "bpcs": 1.2319747157852527,
+    "nmse": 0.0821944252699352,
+    "labels": 106,
+    "labels_lost": 0,
+    "robust": 960,
+    "robust_lost": 22,
+    "robust_false_per_map": 0.18333333333333332
+  },
+  "expected": {
+    "bpcs": 1.2319747157852527,
+    "nmse": 0.0821944252699351,
+    "labels": 106,
+    "labels_lost": 0,
+    "robust": 960,
+    "robust_lost": 22,
+    "robust_false_per_map": 0.1833333333333333
+  },
+  "compared": true
+}

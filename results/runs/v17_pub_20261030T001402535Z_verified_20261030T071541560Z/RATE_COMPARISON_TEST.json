@@ -1,0 +1,106 @@
+{
+  "closed_g0_b2": {
+    "bpcs": 1.3080345676744813,
+    "baselines_at_equal_or_higher_rate": [
+      "blockdct_r008_q8",
+      "baq_1bit",
+      "blockdct_r014_q8",
+      "blockdct_r020_q8",
+      "uniform_2bit",
+      "baq_2bit",
+      "legacy_dct_r025_q8",
+      "uniform_3bit",
+      "baq_3bit",
+      "uniform_4bit"
+    ],
+    "lower_ca_robust_lost_than_all": true,
+    "lower_os_robust_lost_than_all": false,
+    "fewer_ca_robust_new_than_all": true,
+    "higher_dF1_than_all": false,
+    "higher_freespace_iou_than_all": false
+  },
+  "closed_strict2_g0_b2": {
+    "bpcs": 2.418005984355316,
+    "baselines_at_equal_or_higher_rate": [
+      "blockdct_r020_q8",
+      "uniform_2bit",
+      "baq_2bit",
+      "legacy_dct_r025_q8",
+      "uniform_3bit",
+      "baq_3bit",
+      "uniform_4bit"
+    ],
+    "lower_ca_robust_lost_than_all": true,
+    "lower_os_robust_lost_than_all": false,
+    "fewer_ca_robust_new_than_all": true,
+    "higher_dF1_than_all": false,
+    "higher_freespace_iou_than_all": false
+  },
+  "closed_full_b2": {
+    "bpcs": 3.2351843352764393,
+    "baselines_at_equal_or_higher_rate": [
+      "blockdct_r020_q8",
+      "uniform_2bit",
+      "baq_2bit",
+      "legacy_dct_r025_q8",
+      "uniform_3bit",
+      "baq_3bit",
+      "uniform_4bit"
+    ],
+    "lower_ca_robust_lost_than_all": true,
+    "lower_os_robust_lost_than_all": true,
+    "fewer_ca_robust_new_than_all": true,
+    "higher_dF1_than_all": false,
+    "higher_freespace_iou_than_all": false
+  },
+  "closed_full_b1p5": {
+    "bpcs": 3.8439265334714214,
+    "baselines_at_equal_or_higher_rate": [
+      "uniform_2bit",
+      "baq_2bit",
+      "legacy_dct_r025_q8",
+      "uniform_3bit",
+      "baq_3bit",
+      "uniform_4bit"
+    ],
+    "lower_ca_robust_lost_than_all": true,
+    "lower_os_robust_lost_than_all": true,
+    "fewer_ca_robust_new_than_all": true,
+    "higher_dF1_than_all": true,
+    "higher_freespace_iou_than_all": false
+  },
+  "closed_full_b2p5": {
+    "bpcs": 2.9085380217099837,
+    "baselines_at_equal_or_higher_rate": [
+      "blockdct_r020_q8",
+      "uniform_2bit",
+      "baq_2bit",
+      "legacy_dct_r025_q8",
+      "uniform_3bit",
+      "baq_3bit",
+      "uniform_4bit"
+    ],
+    "lower_ca_robust_lost_than_all": true,
+    "lower_os_robust_lost_than_all": false,
+    "fewer_ca_robust_new_than_all": true,
+    "higher_dF1_than_all": false,
+    "higher_freespace_iou_than_all": false
+  },
+  "closed_full_b3": {
+    "bpcs": 2.7438831077241463,
+    "baselines_at_equal_or_higher_rate": [
+      "blockdct_r020_q8",
+      "uniform_2bit",
+      "baq_2bit",
+      "legacy_dct_r025_q8",
+      "uniform_3bit",
+      "baq_3bit",
+      "uniform_4bit"
+    ],
+    "lower_ca_robust_lost_than_all": true,
+    "lower_os_robust_lost_than_all": false,
+    "fewer_ca_robust_new_than_all": true,
+    "higher_dF1_than_all": false,
+    "higher_freespace_iou_than_all": false
+  }
+}

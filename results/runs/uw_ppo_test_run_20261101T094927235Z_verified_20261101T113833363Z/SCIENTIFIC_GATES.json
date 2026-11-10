@@ -1,0 +1,23 @@
+{
+  "gates": {
+    "labels_at_least_as_uniform": true,
+    "same_peak_labels_at_least_as_uniform": true,
+    "within_cap_on_every_cube": true,
+    "rate_lower_than_uniform": true,
+    "robust_false_at_most_0p5": true,
+    "robust_kept_at_least_99": false
+  },
+  "passed": false,
+  "reproduces_study": {
+    "PPO price=0.2": true,
+    "Uniform noise rho=1,q=5": true,
+    "Uniform noise rho=.5,q=6": true,
+    "Peak-scaled rho=.25,q=8": true
+  },
+  "policy_bpcs": 1.2306301813218736,
+  "reference": "Uniform noise rho=1,q=5",
+  "reference_bpcs": 3.0958323302479407,
+  "selection_rule": "VALIDATION rows with zero labels lost and at most 0.2 robust false peaks per map, then the lowest rate.",
+  "test_used_for_selection": false,
+  "scope": "Single seed"
+}

@@ -1,0 +1,11 @@
+{
+  "weak_scale_per_tile": 16.359375,
+  "label_miss": 8.0,
+  "robust_lost": 1.0,
+  "robust_new": 2.0,
+  "weak_new": 1.0,
+  "rate": 10.0,
+  "nmse": 0.5,
+  "rate_formula": "RATE_WEIGHT*price*tile_bits/(cap share)",
+  "hard_bitrate_cap": 4.6
+}

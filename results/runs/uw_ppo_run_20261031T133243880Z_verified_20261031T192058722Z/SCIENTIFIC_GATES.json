@@ -1,0 +1,15 @@
+{
+  "gates": {
+    "labels_at_least_as_uniform": true,
+    "within_cap_on_every_cube": true,
+    "rate_lower_than_uniform": true,
+    "robust_kept_at_least_99": false
+  },
+  "passed": false,
+  "selected_price": 0.2,
+  "policy_bpcs": 0.8331849217460522,
+  "reference": "Uniform noise rho=1,q=5",
+  "reference_bpcs": 3.0958323302479407,
+  "test_used_for_selection": false,
+  "scope": "Single seed"
+}

@@ -1,0 +1,17 @@
+{
+  "variant": "uw.ppo.3.0.0-v12-40-model-tuned-reward-and-optimizer",
+  "arm": 0,
+  "learning_rate": 0.0001,
+  "state": "v12_40",
+  "update": 90,
+  "selected_price": 0.2,
+  "checkpoint": "checkpoints/arm_0_update_0090.pt",
+  "checkpoint_sha256": "f7884cb575a41fe8b0b968884fe747051393f126f93ea3b8c6923c35b56cccd9",
+  "selection_key": [
+    0,
+    0.8418,
+    31,
+    0.10108085711884088
+  ],
+  "test_used_for_selection": false
+}

@@ -1,0 +1,10 @@
+# Tested with Python 3.12. Paper runs: NVIDIA Quadro RTX 4000 (8 GB), CUDA 12.6 runtime.
+# For GPU runs install the CUDA build of PyTorch first, see https://pytorch.org/get-started/locally/
+torch>=2.6
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.8
+pillow>=10.0
+scikit-learn>=1.3
+# optional: h5py (only for HDF5 inputs, never needed by the paper runs)

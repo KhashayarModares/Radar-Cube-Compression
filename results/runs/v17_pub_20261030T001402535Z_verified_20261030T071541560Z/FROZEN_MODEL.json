@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "checkpoint": "entropy_model.pt",
+  "checkpoint_sha256": "2653cfc6536cda41fff5f1cc17ac5194e81dcad16330e907fa1389c7d1e538c9",
+  "selected_epoch": 15,
+  "selection": "lowest bits/symbol on every 3rd VALIDATION cube",
+  "validation_selection_cubes": 236,
+  "test_used_for_selection": false
+}

@@ -1,0 +1,10 @@
+{
+  "source_file": "FFTRadNet_pretrained_4bit.pth",
+  "source_sha256": "080ee74cdfb6ee0906daf845320cc671c51c1e14b510bb83a5249f8d5e1ee256",
+  "source_bytes": 46053642,
+  "epoch": 79,
+  "extracted": "net_state_dict only",
+  "state_dict_sha256": "8958d9a3f6b3c0e250c7bad9c964a2583d40323f40cc572a1f09abeafaec6d41",
+  "state_dict_tensor_sha256": "91871524c98e0d6db9ec2c1ebb8346eed1696cbf978c8a7c51e128ef2c45aabe",
+  "origin": "AdaRadar authors, Google Drive link in their README; placed by scripts/setup_third_party.py"
+}

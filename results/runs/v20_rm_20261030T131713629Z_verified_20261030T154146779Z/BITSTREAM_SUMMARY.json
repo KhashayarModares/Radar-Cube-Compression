@@ -1,0 +1,18 @@
+{
+  "streams": 662,
+  "all_decoded_from_file_exactly": true,
+  "failures": 0,
+  "gpu_bit_exact_files": 7,
+  "by_method": {
+    "fixed_1p45": {
+      "cubes": 662,
+      "file_bpcs_mean": 1.50937662383941,
+      "ideal_kt_bpcs_mean": 1.5485498919587841,
+      "reported_bpcs_mean": 1.4189163867800618,
+      "file_over_kt": -0.02529674266408244,
+      "cpu_entropy_encode_s_median": 1.766442399355583,
+      "cpu_entropy_decode_s_median": 2.1224223639583215
+    }
+  },
+  "note": "Files implement the per-tile KT coder; the learned-model coder is verified by coder_check."
+}

@@ -1,0 +1,11 @@
+{
+  "variant": "uw.ppo.test.2.0.0-arm-1-update-360-price-0p1-with-baq-and-learned-ecdq",
+  "arm": 1,
+  "update": 360,
+  "price": 0.1,
+  "learning_rate": 0.0003,
+  "state": "v12_40",
+  "selection_rule": "VALIDATION rows with zero labels lost and at most 0.2 robust false peaks per map, then the lowest rate.",
+  "source_run": "uw_ppo_run_20261031T133243880Z_verified_20261031T192058722Z",
+  "test_used_for_selection": false
+}

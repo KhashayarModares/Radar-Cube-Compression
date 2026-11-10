@@ -1,0 +1,27 @@
+{
+  "predictions": {
+    "P1": "at each AdaRadar rate the proposed codec loses fewer labels and fewer robust detections than AdaRadar",
+    "P2": "at every budget below 2 bpcs C loses more robust detections than the fixed-rate codec",
+    "P3": "C at 2.667 bpcs and above loses <= 1% robust detections and no robust label"
+  },
+  "passed": {
+    "P1": true,
+    "P2": true,
+    "P3": true
+  },
+  "detail": {
+    "P1": {
+      "0.4585": true,
+      "0.8208": true,
+      "1.4541": true,
+      "2.1064": true,
+      "3.6327": true,
+      "4.7299": true
+    },
+    "P2": {
+      "0.4585": true,
+      "0.8208": true,
+      "1.4541": true
+    }
+  }
+}

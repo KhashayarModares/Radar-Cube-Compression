@@ -1,0 +1,12 @@
+{
+  "predictions": {
+    "P1": "fixed_1p45 on TEST: robust CA-CFAR lost <= 1% and no robust label lost",
+    "P2": "FFTRadNet F1 (official network): fixed_1p45 >= adaradar_r12p57_s4",
+    "P3": "FFTRadNet F1 (fine-tuned networks): fixed_1p45@ft_proposed >= adaradar_r12p57_s4@ft_adaradar"
+  },
+  "passed": {
+    "P1": true,
+    "P2": true,
+    "P3": true
+  }
+}

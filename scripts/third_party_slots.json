@@ -1,0 +1,37 @@
+[
+  {
+    "file": "config_FFTRadNet_192_56.json",
+    "destination": "tools/radial_ppo_tuned_gpu/config_FFTRadNet_192_56.json",
+    "sha256_of_file_used": "a710a9af2b6c948655f07d94d97cd9e164fc1b02466139021384890b854f3089"
+  },
+  {
+    "file": "FFTRadNet.py",
+    "destination": "tools/radial_ppo_tuned_gpu/FFTRadNet.py",
+    "sha256_of_file_used": "be8dcaee5924d3122cbeea73981baaf6881292993ae5e3289d1a2687d4d4839c"
+  },
+  {
+    "file": "fftradnet_state_dict.pt",
+    "destination": "tools/radial_ppo_tuned_gpu/fftradnet_state_dict.pt",
+    "sha256_of_file_used": "80fa2dc24992e1842b3b46f8c0995c6b1fd64319ec343d9eb0d196d2622891da"
+  },
+  {
+    "file": "adaradar_4bit_state_dict.pt",
+    "destination": "tools/radial_official_test_gpu/adaradar_4bit_state_dict.pt",
+    "sha256_of_file_used": "8958d9a3f6b3c0e250c7bad9c964a2583d40323f40cc572a1f09abeafaec6d41"
+  },
+  {
+    "file": "config_FFTRadNet_192_56.json",
+    "destination": "tools/radial_official_test_gpu/config_FFTRadNet_192_56.json",
+    "sha256_of_file_used": "a710a9af2b6c948655f07d94d97cd9e164fc1b02466139021384890b854f3089"
+  },
+  {
+    "file": "FFTRadNet.py",
+    "destination": "tools/radial_official_test_gpu/FFTRadNet.py",
+    "sha256_of_file_used": "be8dcaee5924d3122cbeea73981baaf6881292993ae5e3289d1a2687d4d4839c"
+  },
+  {
+    "file": "fftradnet_state_dict.pt",
+    "destination": "tools/radial_official_test_gpu/fftradnet_state_dict.pt",
+    "sha256_of_file_used": "80fa2dc24992e1842b3b46f8c0995c6b1fd64319ec343d9eb0d196d2622891da"
+  }
+]

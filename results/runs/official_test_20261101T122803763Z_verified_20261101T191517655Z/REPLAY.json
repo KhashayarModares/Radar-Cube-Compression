@@ -1,0 +1,247 @@
+{
+  "checks": 24,
+  "agrees": true,
+  "compared": true,
+  "rows": [
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000000",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.0450940132,
+      "bpcs": 1.0450937469,
+      "saved_lost": 9,
+      "lost": 9,
+      "saved_new": 8,
+      "new": 8
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000000",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 64,
+      "lost": 64,
+      "saved_new": 4,
+      "new": 4
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000001",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.0415472984,
+      "bpcs": 1.0415468944,
+      "saved_lost": 19,
+      "lost": 19,
+      "saved_new": 6,
+      "new": 6
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000001",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 117,
+      "lost": 117,
+      "saved_new": 21,
+      "new": 21
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000002",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.0841097832,
+      "bpcs": 1.0841097023,
+      "saved_lost": 23,
+      "lost": 23,
+      "saved_new": 13,
+      "new": 13
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000002",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 109,
+      "lost": 109,
+      "saved_new": 12,
+      "new": 12
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000003",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.0713801384,
+      "bpcs": 1.0713799263,
+      "saved_lost": 20,
+      "lost": 20,
+      "saved_new": 13,
+      "new": 13
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000003",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 110,
+      "lost": 110,
+      "saved_new": 18,
+      "new": 18
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000046",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.1384425163,
+      "bpcs": 1.1384423134,
+      "saved_lost": 27,
+      "lost": 27,
+      "saved_new": 7,
+      "new": 7
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000046",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 126,
+      "lost": 126,
+      "saved_new": 21,
+      "new": 21
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000048",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.1587677002,
+      "bpcs": 1.1587675199,
+      "saved_lost": 17,
+      "lost": 17,
+      "saved_new": 13,
+      "new": 13
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000048",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 140,
+      "lost": 140,
+      "saved_new": 28,
+      "new": 28
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000050",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.1276335716,
+      "bpcs": 1.1276332566,
+      "saved_lost": 29,
+      "lost": 29,
+      "saved_new": 15,
+      "new": 15
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000050",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 111,
+      "lost": 111,
+      "saved_new": 9,
+      "new": 9
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000053",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.0857744217,
+      "bpcs": 1.0857741065,
+      "saved_lost": 24,
+      "lost": 24,
+      "saved_new": 10,
+      "new": 10
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000053",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 109,
+      "lost": 109,
+      "saved_new": 10,
+      "new": 10
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000057",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.1600956917,
+      "bpcs": 1.1600953146,
+      "saved_lost": 47,
+      "lost": 47,
+      "saved_new": 12,
+      "new": 12
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000057",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 159,
+      "lost": 159,
+      "saved_new": 11,
+      "new": 11
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000060",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.1306676865,
+      "bpcs": 1.1306675005,
+      "saved_lost": 43,
+      "lost": 43,
+      "saved_new": 7,
+      "new": 7
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000060",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 182,
+      "lost": 182,
+      "saved_new": 27,
+      "new": 27
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000061",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.1859259605,
+      "bpcs": 1.185925927,
+      "saved_lost": 69,
+      "lost": 69,
+      "saved_new": 13,
+      "new": 13
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000061",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 181,
+      "lost": 181,
+      "saved_new": 33,
+      "new": 33
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000062",
+      "method": "ppo_1p45",
+      "saved_bpcs": 1.1921830177,
+      "bpcs": 1.1921829505,
+      "saved_lost": 41,
+      "lost": 41,
+      "saved_new": 16,
+      "new": 16
+    },
+    {
+      "record_name": "RECORD@2020-11-21_11.58.53_frame_000062",
+      "method": "adaradar_r12p57_s4",
+      "saved_bpcs": 1.4541320801,
+      "bpcs": 1.4541320801,
+      "saved_lost": 176,
+      "lost": 176,
+      "saved_new": 37,
+      "new": 37
+    }
+  ]
+}

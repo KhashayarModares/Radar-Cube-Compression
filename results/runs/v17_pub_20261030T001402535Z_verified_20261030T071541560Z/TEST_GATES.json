@@ -1,0 +1,359 @@
+{
+  "role": "test",
+  "legacy_dct_bpcs": 4.0667724609375,
+  "lossless_adc_bpcs": 19.404543134741193,
+  "H0_robust_new_floor_per_map": {
+    "ca_cfar": 1.01,
+    "os_cfar": 1.005
+  },
+  "receiver_fragility_control": {
+    "strict_lost_fraction": 0.017074382041603997,
+    "robust_lost_fraction": 3.0824715256692815e-06,
+    "strict_new_per_map": 12.63141993957704,
+    "dF1": 9.635589546386214e-05,
+    "meaning": "decision changes caused by independent noise 20 dB below the receiver noise"
+  },
+  "operating_points": {
+    "closed_g0_b2": {
+      "name": "A",
+      "pre_registered": true,
+      "bpcs": 1.3080345676744813,
+      "bpcs_ci": [
+        1.2136450496915943,
+        1.446771264825977
+      ],
+      "bpcs_kt": 1.4416025909412304,
+      "ratio_vs_raw_32bit": 24.464185267589617,
+      "ratio_vs_lossless": 14.834885571288835,
+      "learned_rate_saving": 0.09265245783135123,
+      "ca_cfar": {
+        "robust_lost_le_1pct": true,
+        "robust_new_le_H0_floor_plus_1": true,
+        "no_robust_label_lost": true,
+        "bitrate_below_legacy": true,
+        "robust_lost_fraction": 0.00218855478322519,
+        "robust_lost_ci": [
+          0.001874471325037785,
+          0.002778764237047993
+        ],
+        "strict_lost_fraction": 0.12946476714816813,
+        "strict_new_per_map": 97.19486404833837,
+        "robust_new_per_map": 0.0,
+        "labels_lost_strict": 0,
+        "labels_detected_original": 770,
+        "passed": true
+      },
+      "generalization": {
+        "os_cfar_robust_lost_le_1pct": false,
+        "os_cfar_robust_new_le_H0_floor_plus_1": false,
+        "alpha_01_robust_lost_le_1pct": false,
+        "os_cfar_robust_lost_fraction": 0.06816354147602172,
+        "alpha_01_robust_lost_fraction": 0.0134562596968612,
+        "passed": false
+      },
+      "perception": {
+        "F1_drop_le_gate": false,
+        "mAR_drop_le_gate": false,
+        "F1": 0.8204328304666879,
+        "dF1": -0.03464576323857316,
+        "dF1_ci": [
+          -0.07511281402559009,
+          -0.012784003150025544
+        ],
+        "dmAR": -0.04731727925644269,
+        "passed": false
+      },
+      "timing_ms": {
+        "encode_median": 131.7853955551982,
+        "decode_median": 5.894620553590357,
+        "entropy_model_median": 50.2976254792884
+      },
+      "passed": false
+    },
+    "closed_strict2_g0_b2": {
+      "name": "B",
+      "pre_registered": true,
+      "bpcs": 2.418005984355316,
+      "bpcs_ci": [
+        2.3216286179080656,
+        2.5356916056569756
+      ],
+      "bpcs_kt": 2.804530907973782,
+      "ratio_vs_raw_32bit": 13.234044997010947,
+      "ratio_vs_lossless": 8.025018655987651,
+      "learned_rate_saving": 0.13782159523345128,
+      "ca_cfar": {
+        "robust_lost_le_1pct": true,
+        "robust_new_le_H0_floor_plus_1": true,
+        "no_robust_label_lost": true,
+        "bitrate_below_legacy": true,
+        "robust_lost_fraction": 9.247414577007844e-05,
+        "robust_lost_ci": [
+          1.084789301373994e-05,
+          0.0002637143680378186
+        ],
+        "strict_lost_fraction": 0.012566336521270255,
+        "strict_new_per_map": 0.4350453172205438,
+        "robust_new_per_map": 0.0015105740181268882,
+        "labels_lost_strict": 0,
+        "labels_detected_original": 770,
+        "passed": true
+      },
+      "generalization": {
+        "os_cfar_robust_lost_le_1pct": false,
+        "os_cfar_robust_new_le_H0_floor_plus_1": false,
+        "alpha_01_robust_lost_le_1pct": true,
+        "os_cfar_robust_lost_fraction": 0.05370502858980972,
+        "alpha_01_robust_lost_fraction": 0.0055064910954635265,
+        "passed": false
+      },
+      "perception": {
+        "F1_drop_le_gate": false,
+        "mAR_drop_le_gate": false,
+        "F1": 0.8225524709831941,
+        "dF1": -0.03252612272206701,
+        "dF1_ci": [
+          -0.06899293559713818,
+          -0.011893041688660759
+        ],
+        "dmAR": -0.04238839600056332,
+        "passed": false
+      },
+      "timing_ms": {
+        "encode_median": 121.68360943906009,
+        "decode_median": 5.8871390065178275,
+        "entropy_model_median": 62.9640226252377
+      },
+      "passed": false
+    },
+    "closed_full_b2": {
+      "name": "C (beta 2)",
+      "pre_registered": true,
+      "bpcs": 3.2351843352764393,
+      "bpcs_ci": [
+        3.220244537740713,
+        3.268270656713033
+      ],
+      "bpcs_kt": 3.449524998304707,
+      "ratio_vs_raw_32bit": 9.891244727872877,
+      "ratio_vs_lossless": 5.997971405571583,
+      "learned_rate_saving": 0.06213628344006983,
+      "ca_cfar": {
+        "robust_lost_le_1pct": true,
+        "robust_new_le_H0_floor_plus_1": true,
+        "no_robust_label_lost": true,
+        "bitrate_below_legacy": true,
+        "robust_lost_fraction": 0.0,
+        "robust_lost_ci": [
+          0.0,
+          0.0
+        ],
+        "strict_lost_fraction": 0.14836535459885916,
+        "strict_new_per_map": 26.24773413897281,
+        "robust_new_per_map": 0.0,
+        "labels_lost_strict": 0,
+        "labels_detected_original": 770,
+        "passed": true
+      },
+      "generalization": {
+        "os_cfar_robust_lost_le_1pct": false,
+        "os_cfar_robust_new_le_H0_floor_plus_1": true,
+        "alpha_01_robust_lost_le_1pct": false,
+        "os_cfar_robust_lost_fraction": 0.01580897237520035,
+        "alpha_01_robust_lost_fraction": 0.014596676877378631,
+        "passed": false
+      },
+      "perception": {
+        "F1_drop_le_gate": true,
+        "mAR_drop_le_gate": true,
+        "F1": 0.8486430789573548,
+        "dF1": -0.006435514747906268,
+        "dF1_ci": [
+          -0.020690254267394126,
+          0.003633556172453743
+        ],
+        "dmAR": -0.0042247570764680775,
+        "passed": true
+      },
+      "timing_ms": {
+        "encode_median": 34.14516744669527,
+        "decode_median": 3.9929834892973304,
+        "entropy_model_median": 120.12678605969995
+      },
+      "passed": false
+    },
+    "closed_full_b1p5": {
+      "name": "C (beta 1.5)",
+      "pre_registered": false,
+      "bpcs": 3.8439265334714214,
+      "bpcs_ci": [
+        3.832417590063564,
+        3.8695111860399662
+      ],
+      "bpcs_kt": 4.041741805494372,
+      "ratio_vs_raw_32bit": 8.324820914592516,
+      "ratio_vs_lossless": 5.048104578943941,
+      "learned_rate_saving": 0.04894307492726002,
+      "ca_cfar": {
+        "robust_lost_le_1pct": true,
+        "robust_new_le_H0_floor_plus_1": true,
+        "no_robust_label_lost": true,
+        "bitrate_below_legacy": true,
+        "robust_lost_fraction": 0.0,
+        "robust_lost_ci": [
+          0.0,
+          0.0
+        ],
+        "strict_lost_fraction": 0.1057297726821239,
+        "strict_new_per_map": 25.891238670694865,
+        "robust_new_per_map": 0.0,
+        "labels_lost_strict": 0,
+        "labels_detected_original": 770,
+        "passed": true
+      },
+      "generalization": {
+        "os_cfar_robust_lost_le_1pct": true,
+        "os_cfar_robust_new_le_H0_floor_plus_1": true,
+        "alpha_01_robust_lost_le_1pct": true,
+        "os_cfar_robust_lost_fraction": 0.005202180700907886,
+        "alpha_01_robust_lost_fraction": 0.0034809245335561123,
+        "passed": true
+      },
+      "perception": {
+        "F1_drop_le_gate": true,
+        "mAR_drop_le_gate": true,
+        "F1": 0.8527035350636292,
+        "dF1": -0.0023750586416318997,
+        "dF1_ci": [
+          -0.009461181857055842,
+          0.004352938035659981
+        ],
+        "dmAR": 0.0002816504717645385,
+        "passed": true
+      },
+      "timing_ms": {
+        "encode_median": 33.48447708413005,
+        "decode_median": 3.9613409899175167,
+        "entropy_model_median": 120.15647254884243
+      },
+      "passed": true
+    },
+    "closed_full_b2p5": {
+      "name": "C (beta 2.5)",
+      "pre_registered": false,
+      "bpcs": 2.9085380217099837,
+      "bpcs_ci": [
+        2.8900260949486647,
+        2.94316122045681
+      ],
+      "bpcs_kt": 3.1107892982909324,
+      "ratio_vs_raw_32bit": 11.002091002814742,
+      "ratio_vs_lossless": 6.671579669889582,
+      "learned_rate_saving": 0.06501606415197125,
+      "ca_cfar": {
+        "robust_lost_le_1pct": true,
+        "robust_new_le_H0_floor_plus_1": true,
+        "no_robust_label_lost": true,
+        "bitrate_below_legacy": true,
+        "robust_lost_fraction": 1.541235762834641e-05,
+        "robust_lost_ci": [
+          0.0,
+          4.606617845228297e-05
+        ],
+        "strict_lost_fraction": 0.18600476771575333,
+        "strict_new_per_map": 25.993957703927492,
+        "robust_new_per_map": 0.0,
+        "labels_lost_strict": 3,
+        "labels_detected_original": 770,
+        "passed": true
+      },
+      "generalization": {
+        "os_cfar_robust_lost_le_1pct": false,
+        "os_cfar_robust_new_le_H0_floor_plus_1": true,
+        "alpha_01_robust_lost_le_1pct": false,
+        "os_cfar_robust_lost_fraction": 0.029443899084349644,
+        "alpha_01_robust_lost_fraction": 0.027784408110222647,
+        "passed": false
+      },
+      "perception": {
+        "F1_drop_le_gate": true,
+        "mAR_drop_le_gate": true,
+        "F1": 0.8449586041152397,
+        "dF1": -0.010119989590021361,
+        "dF1_ci": [
+          -0.029299486274149612,
+          0.0013945330355245034
+        ],
+        "dmAR": -0.010421067455288036,
+        "passed": true
+      },
+      "timing_ms": {
+        "encode_median": 33.38023892138153,
+        "decode_median": 3.887491999194026,
+        "entropy_model_median": 120.23881159257144
+      },
+      "passed": false
+    },
+    "closed_full_b3": {
+      "name": "C (beta 3)",
+      "pre_registered": false,
+      "bpcs": 2.7438831077241463,
+      "bpcs_ci": [
+        2.7244959960997184,
+        2.7721586114129546
+      ],
+      "bpcs_kt": 2.9298865471001476,
+      "ratio_vs_raw_32bit": 11.662304385313885,
+      "ratio_vs_lossless": 7.07192776547827,
+      "learned_rate_saving": 0.06348486072271231,
+      "ca_cfar": {
+        "robust_lost_le_1pct": true,
+        "robust_new_le_H0_floor_plus_1": true,
+        "no_robust_label_lost": true,
+        "bitrate_below_legacy": true,
+        "robust_lost_fraction": 4.007212983370066e-05,
+        "robust_lost_ci": [
+          0.0,
+          0.00011846068313050063
+        ],
+        "strict_lost_fraction": 0.21802083037716039,
+        "strict_new_per_map": 25.496978851963746,
+        "robust_new_per_map": 0.0,
+        "labels_lost_strict": 1,
+        "labels_detected_original": 770,
+        "passed": true
+      },
+      "generalization": {
+        "os_cfar_robust_lost_le_1pct": false,
+        "os_cfar_robust_new_le_H0_floor_plus_1": true,
+        "alpha_01_robust_lost_le_1pct": false,
+        "os_cfar_robust_lost_fraction": 0.04412148034762547,
+        "alpha_01_robust_lost_fraction": 0.03780947076686425,
+        "passed": false
+      },
+      "perception": {
+        "F1_drop_le_gate": true,
+        "mAR_drop_le_gate": true,
+        "F1": 0.8422929490875084,
+        "dF1": -0.012785644617752667,
+        "dF1_ci": [
+          -0.036799521542140286,
+          -0.00027860636303167534
+        ],
+        "dmAR": -0.017039853541754635,
+        "passed": true
+      },
+      "timing_ms": {
+        "encode_median": 33.62330456729978,
+        "decode_median": 3.868383006192744,
+        "entropy_model_median": 120.27480395045131
+      },
+      "passed": false
+    }
+  },
+  "pre_registered_points_passed": {
+    "closed_g0_b2": false,
+    "closed_strict2_g0_b2": false,
+    "closed_full_b2": false
+  }
+}

@@ -1,0 +1,27 @@
+feature,keep,reason
+doppler_tile_center,True,"protected local allocation, position or detector context"
+range_frequency_tile_center,True,"protected local allocation, position or detector context"
+block_log_energy_ratio,True,retained: no strong TRAIN redundancy
+spectral_top10_energy_fraction,True,retained: no strong TRAIN redundancy
+spectral_top1_energy_fraction,True,retained: no strong TRAIN redundancy
+spectral_top5_energy_fraction,False,TRAIN Pearson and Spearman >= .98 with spectral_top10_energy_fraction
+spectral_entropy_normalized,False,TRAIN Pearson and Spearman >= .98 with spectral_top1_energy_fraction
+spectral_peak_to_mean_log,True,retained: no strong TRAIN redundancy
+block_energy_fraction,True,retained: no strong TRAIN redundancy
+future_energy_fraction,False,removed: canonical-order suffix energy is not control state in parallel editing
+weak_peak_frac,True,"protected local allocation, position or detector context"
+cfar_margin,True,"protected local allocation, position or detector context"
+bg_spread,True,"protected local allocation, position or detector context"
+peak_avail,True,"protected local allocation, position or detector context"
+cfar_coverage,False,constant on this TRAIN audit
+cube_mean_spectral_concentration,True,retained: no strong TRAIN redundancy
+cube_block_log_energy_std,True,retained: no strong TRAIN redundancy
+cube_spectral_concentration_std,True,retained: no strong TRAIN redundancy
+allocation_mean_keep_fraction,True,"protected local allocation, position or detector context"
+allocation_mean_q_div_12,True,"protected local allocation, position or detector context"
+current_keep_fraction,True,"protected local allocation, position or detector context"
+current_q_div_12,True,"protected local allocation, position or detector context"
+edit_rounds_remaining,True,"protected local allocation, position or detector context"
+rate_price,True,"protected local allocation, position or detector context"
+predicted_margin_db,True,"protected local allocation, position or detector context"
+predicted_snr_loss_db,True,"protected local allocation, position or detector context"

@@ -1,0 +1,46 @@
+{
+ "source_run": "uw_ppo_run_20261031T133243880Z_verified_20261031T192058722Z",
+ "validation": {
+  "bpcs": 1.2319747157852527,
+  "nmse": 0.0821944252699351,
+  "labels": 106,
+  "labels_lost": 0,
+  "robust": 960,
+  "robust_lost": 22,
+  "robust_false_per_map": 0.1833333333333333
+ },
+ "test": {
+  "PPO price=0.2": {
+   "bpcs": 0.8331849217460522,
+   "labels_lost": 18.0,
+   "robust_lost": 1082.0,
+   "low_miss": 268.0,
+   "robust_false_per_map": 3.3794543429844097,
+   "nmse": 0.1171530724788179
+  },
+  "Uniform noise rho=1,q=5": {
+   "bpcs": 3.0958323302479407,
+   "labels_lost": 40.0,
+   "robust_lost": 539.0,
+   "low_miss": 158.0,
+   "robust_false_per_map": 0.0086302895322939,
+   "nmse": 0.0252644930019186
+  },
+  "Uniform noise rho=.5,q=6": {
+   "bpcs": 2.779895892824829,
+   "labels_lost": 22.0,
+   "robust_lost": 163.0,
+   "low_miss": 142.0,
+   "robust_false_per_map": 0.0116926503340757,
+   "nmse": 0.0548339404185452
+  },
+  "Peak-scaled rho=.25,q=8": {
+   "bpcs": 4.159313725490196,
+   "labels_lost": 0.0,
+   "robust_lost": 104.0,
+   "low_miss": 205.0,
+   "robust_false_per_map": 75.82488864142539,
+   "nmse": 0.0480482387411604
+  }
+ }
+}

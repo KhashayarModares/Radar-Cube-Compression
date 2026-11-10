@@ -1,0 +1,36 @@
+{
+  "streams": 1986,
+  "all_decoded_from_file_exactly": true,
+  "failures": 0,
+  "gpu_bit_exact_files": 21,
+  "by_method": {
+    "closed_g0_b2": {
+      "cubes": 662,
+      "file_bpcs_mean": 1.4021297408734923,
+      "ideal_kt_bpcs_mean": 1.4416025909412304,
+      "reported_bpcs_mean": 1.3080345676744813,
+      "file_over_kt": -0.027381228582536,
+      "cpu_entropy_encode_s_median": 1.6897347784833983,
+      "cpu_entropy_decode_s_median": 2.043952827807516
+    },
+    "closed_strict2_g0_b2": {
+      "cubes": 662,
+      "file_bpcs_mean": 2.7317436252836016,
+      "ideal_kt_bpcs_mean": 2.804530907973782,
+      "reported_bpcs_mean": 2.418005984355316,
+      "file_over_kt": -0.025953460695773978,
+      "cpu_entropy_encode_s_median": 2.830895130056888,
+      "cpu_entropy_decode_s_median": 3.3820990114472806
+    },
+    "closed_full_b2": {
+      "cubes": 662,
+      "file_bpcs_mean": 3.453142742375953,
+      "ideal_kt_bpcs_mean": 3.449524998304707,
+      "reported_bpcs_mean": 3.2351843352764393,
+      "file_over_kt": 0.0010487658657420962,
+      "cpu_entropy_encode_s_median": 4.8173383350949734,
+      "cpu_entropy_decode_s_median": 5.8851179430494085
+    }
+  },
+  "note": "Files implement the per-tile KT coder; the learned-model coder is verified by coder_check."
+}

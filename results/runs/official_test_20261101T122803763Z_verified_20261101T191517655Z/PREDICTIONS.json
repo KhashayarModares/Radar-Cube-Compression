@@ -1,0 +1,38 @@
+{
+  "predictions": {
+    "P1": "AdaRadar with feedback and its own weights on the official recordings has F1 within 2 points of its published 95.13",
+    "P2": "AdaRadar at ratio 12.57 with official weights on the official recordings loses F1 within 2 points of its published no-fine-tuning curve, -2.08",
+    "P3": "PPO keeps more robust CFAR detections than AdaRadar at each AdaRadar rate above 1 bpcs on the official recordings"
+  },
+  "passed": {
+    "P1": false,
+    "P2": true,
+    "P3": true
+  },
+  "detail": {
+    "adaradar_own_F1": 87.18633329728947,
+    "adaradar_own_precision": 88.16411665172657,
+    "adaradar_own_recall": 86.23000024373549,
+    "adaradar_official_dF1_r12": -3.129373624040621,
+    "robust_lead": {
+      "1.4541": 15.605016907910027,
+      "2.1064": 6.659211679876904,
+      "3.6327": 2.2500939328335505,
+      "4.7299": 1.6006154837093618
+    }
+  },
+  "published": {
+    "adaptive": {
+      "ratio": 12.57,
+      "precision": 96.25,
+      "recall": 94.04,
+      "F1": 95.13
+    },
+    "baseline": {
+      "precision": 97.24,
+      "recall": 95.93,
+      "F1": 96.58
+    },
+    "official_dF1_r12": -2.08
+  }
+}

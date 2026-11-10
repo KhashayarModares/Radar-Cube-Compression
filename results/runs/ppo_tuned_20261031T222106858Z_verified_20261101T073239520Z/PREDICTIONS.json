@@ -1,0 +1,48 @@
+{
+  "predictions": {
+    "P1": "above 1 bpcs the frozen policy beats AdaRadar on every score at each of its rates"
+  },
+  "passed": {
+    "P1": false
+  },
+  "detail": {
+    "P1": {
+      "1.4541": {
+        "labels": true,
+        "robust": true,
+        "false": true,
+        "rd": false,
+        "mAP": true,
+        "mAR": true,
+        "F1": true
+      },
+      "2.1064": {
+        "labels": true,
+        "robust": true,
+        "false": true,
+        "rd": false,
+        "mAP": false,
+        "mAR": true,
+        "F1": true
+      },
+      "3.6327": {
+        "labels": true,
+        "robust": true,
+        "false": true,
+        "rd": false,
+        "mAP": false,
+        "mAR": true,
+        "F1": true
+      },
+      "4.7299": {
+        "labels": true,
+        "robust": true,
+        "false": true,
+        "rd": true,
+        "mAP": false,
+        "mAR": true,
+        "F1": false
+      }
+    }
+  }
+}

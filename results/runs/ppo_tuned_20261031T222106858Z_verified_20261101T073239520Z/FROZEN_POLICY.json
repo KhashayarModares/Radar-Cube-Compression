@@ -1,0 +1,19 @@
+{
+  "variant": "tuned.1.0.0-v12-40-model-radial-reward-bounds-prices",
+  "arm": 0,
+  "update": 336,
+  "learning_rate": 0.0001,
+  "prices": {
+    "0.4585": 0.3,
+    "0.8208": 0.3,
+    "1.4541": 0.2,
+    "2.1064": 0.2,
+    "3.6327": 0.0,
+    "4.7299": 0.0
+  },
+  "checkpoint": "checkpoints/arm_0_update_0336.pt",
+  "checkpoint_sha256": "51a26f950a62a9fbdfb80c54cd965a9bf0d96a736fbf5677bebbac4e15c46df2",
+  "selection_rule": "Most wins over AdaRadar on the VALIDATION screen, at 1.45, 2.11, 3.63 and 4.73 bpcs, on labels, robust detections, robust false peaks and RD error; then the largest robust gain; then the earlier arm and update. A label tie counts as a win. Update 0 cannot win.",
+  "wins": 15,
+  "test_used_for_selection": false
+}

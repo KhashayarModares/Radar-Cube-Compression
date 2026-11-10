@@ -1,0 +1,1172 @@
+[
+  {
+    "role": "validation",
+    "method": "lossless_adc",
+    "recordings": 11,
+    "cubes": 708,
+    "bpcs_ci": [
+      19.04486479917922,
+      20.93232020583788
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_lost_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "validation",
+    "method": "legacy_dct_r025_q8",
+    "recordings": 11,
+    "cubes": 708,
+    "bpcs_ci": [
+      4.0667724609375,
+      4.0667724609375
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.09563777646072934,
+      0.11579874239564106
+    ],
+    "a1_lost_fraction_ci": [
+      0.17852315342869757,
+      0.19508241454430003
+    ],
+    "a1_new_robust_per_map_ci": [
+      248.39968635828708,
+      263.07539206152757
+    ],
+    "a1_new_per_map_ci": [
+      983.6764497366111,
+      1202.5435709110072
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.08572370724927049,
+      0.10644379368079893
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.11231904685856132,
+      0.13611520378259295
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      198.14010944419968,
+      234.54053446275606
+    ],
+    "labels_lost_fraction_ci": [
+      0.0033466548047651483,
+      0.018414927681926773
+    ]
+  },
+  {
+    "role": "validation",
+    "method": "perturb_m20db",
+    "recordings": 11,
+    "cubes": 708,
+    "bpcs_ci": null,
+    "a1_lost_robust_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_lost_fraction_ci": [
+      0.014304256625009814,
+      0.01889441729512723
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      10.83356677418152,
+      13.00678410761345
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.0,
+      7.065884126647266e-06
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "validation",
+    "method": "ecdq_b1",
+    "recordings": 11,
+    "cubes": 708,
+    "bpcs_ci": [
+      5.041915770801216,
+      5.185476468648616
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.00044574399899705215,
+      0.0009036783955997704
+    ],
+    "a1_lost_fraction_ci": [
+      0.052922956111152865,
+      0.0681760624855897
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.009615128068303096,
+      0.03894131569365214
+    ],
+    "a1_new_per_map_ci": [
+      20.369363268233013,
+      24.038888634769616
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.00040378972328710305,
+      0.0006798471323020522
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.0008068024804998815,
+      0.0014806552098829847
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.012908198926751544,
+      0.055141716709038315
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.004008318143825337
+    ]
+  },
+  {
+    "role": "validation",
+    "method": "ecdq_b2",
+    "recordings": 11,
+    "cubes": 708,
+    "bpcs_ci": [
+      3.385941666789057,
+      3.5243370755123467
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.02115079271433588,
+      0.025031794945381478
+    ],
+    "a1_lost_fraction_ci": [
+      0.13226336522384538,
+      0.1710027490446943
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.1986497136974844,
+      0.2774306673444604
+    ],
+    "a1_new_per_map_ci": [
+      23.27780844155844,
+      27.352930620103148
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.020968259464927176,
+      0.02456026195294944
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.02831887238720567,
+      0.030899236743559395
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.2606550469024819,
+      0.413810970162587
+    ],
+    "labels_lost_fraction_ci": [
+      0.0008657821417336988,
+      0.007846660574965006
+    ]
+  },
+  {
+    "role": "validation",
+    "method": "closed_g0_b2",
+    "recordings": 11,
+    "cubes": 708,
+    "bpcs_ci": [
+      1.1332926925823779,
+      1.602287568583825
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.00229505827182786,
+      0.0029958119751328656
+    ],
+    "a1_lost_fraction_ci": [
+      0.11556339754589962,
+      0.13256374618770864
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      89.29512799559002,
+      98.2886587249287
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.013343312364136948,
+      0.014363921900212042
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.0769700027291819,
+      0.10571940943624258
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      1.7802183029312701,
+      4.555107402879965
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.00814382104633384
+    ]
+  },
+  {
+    "role": "validation",
+    "method": "closed_strict2_g0_b2",
+    "recordings": 11,
+    "cubes": 708,
+    "bpcs_ci": [
+      2.1167111600769704,
+      2.7130862230592685
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.00018264043149690974,
+      0.0005600384841217663
+    ],
+    "a1_lost_fraction_ci": [
+      0.012594010138764973,
+      0.013891329149508115
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0015526748456819797,
+      0.014778932784547573
+    ],
+    "a1_new_per_map_ci": [
+      0.41900676290368505,
+      0.5780243033441328
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.0052500873051968145,
+      0.006434313335165552
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.061463893349139764,
+      0.08672691010733702
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      1.2600600917560303,
+      3.849149645018621
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.006554999926211883
+    ]
+  },
+  {
+    "role": "validation",
+    "method": "closed_full_b2",
+    "recordings": 11,
+    "cubes": 708,
+    "bpcs_ci": [
+      3.224161325199499,
+      3.2991605475564563
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.0,
+      2.7306088114873195e-05
+    ],
+    "a1_lost_fraction_ci": [
+      0.12041080031144791,
+      0.15873046030563565
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      23.414013616408287,
+      27.531708365349
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.011071829347419347,
+      0.014332005364773626
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.016011451640273514,
+      0.01831915739448421
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.09942163922117278,
+      0.1957009969852435
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0034462570855560756
+    ]
+  },
+  {
+    "role": "test",
+    "method": "lossless_adc",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      18.985530563903954,
+      20.28015107121961
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_lost_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "test",
+    "method": "legacy_dct_r025_q8",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      4.0667724609375,
+      4.0667724609375
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.08337697376150087,
+      0.1030802257146274
+    ],
+    "a1_lost_fraction_ci": [
+      0.1678242803108932,
+      0.1778797583990714
+    ],
+    "a1_new_robust_per_map_ci": [
+      255.80050875496283,
+      279.6565789473684
+    ],
+    "a1_new_per_map_ci": [
+      1074.5634210766934,
+      1263.5381355932204
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.07294945417342874,
+      0.09412572671299188
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.09314424320307435,
+      0.12573630067029123
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      200.31487343545678,
+      229.5844491106719
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.013235294117647059
+    ]
+  },
+  {
+    "role": "test",
+    "method": "perturb_m20db",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": null,
+    "a1_lost_robust_fraction_ci": [
+      0.0,
+      1.0642033905520023e-05
+    ],
+    "a1_lost_fraction_ci": [
+      0.01563793635724798,
+      0.018035465355883525
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      11.735477787916786,
+      13.049613911988171
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.0,
+      1.1338125581078936e-05
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.0,
+      1.658966298099654e-05
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.0,
+      0.0057692307692307696
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "test",
+    "method": "ecdq_b1",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      5.01599477317238,
+      5.11295440013592
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.00016688630138460175,
+      0.0009102788793140282
+    ],
+    "a1_lost_fraction_ci": [
+      0.05817471464781001,
+      0.06580444279634806
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.003129890453834116,
+      0.032611930641821926
+    ],
+    "a1_new_per_map_ci": [
+      22.202083333333334,
+      24.313701457244594
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.00013246682368400834,
+      0.000844848028905154
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.0003769688014069847,
+      0.0016908990239448058
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.0012880089555347288,
+      0.035609282878950675
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "test",
+    "method": "ecdq_b2",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      3.359654935506674,
+      3.453737159088821
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.022090409114052655,
+      0.025106619692193584
+    ],
+    "a1_lost_fraction_ci": [
+      0.144937126253971,
+      0.16939525879220105
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.09938327779800074,
+      0.22190592051905916
+    ],
+    "a1_new_per_map_ci": [
+      24.32064672459893,
+      27.053104450999015
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.022684500360076524,
+      0.02503237114704396
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.026305117960308686,
+      0.03293249127663869
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.2075,
+      0.30868614921242216
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "test",
+    "method": "baq_1bit",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      2.015655517578125,
+      2.015655517578125
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.2342799318880519,
+      0.2955039552073719
+    ],
+    "a1_lost_fraction_ci": [
+      0.39993971325222716,
+      0.4323350429381361
+    ],
+    "a1_new_robust_per_map_ci": [
+      14.713942307692308,
+      45.22732478195637
+    ],
+    "a1_new_per_map_ci": [
+      65.87733071638861,
+      142.38010854007624
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.24332269817900565,
+      0.30497092075337745
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.23783328705807427,
+      0.32121941161506556
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      15.779276345258003,
+      48.74832131410256
+    ],
+    "labels_lost_fraction_ci": [
+      0.0058823529411764705,
+      0.01814964527305725
+    ]
+  },
+  {
+    "role": "test",
+    "method": "baq_2bit",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      4.015655517578125,
+      4.015655517578125
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.060102580801087734,
+      0.13289039079127032
+    ],
+    "a1_lost_fraction_ci": [
+      0.20744509917341122,
+      0.26686765952111485
+    ],
+    "a1_new_robust_per_map_ci": [
+      6.546379793777135,
+      20.028650693568714
+    ],
+    "a1_new_per_map_ci": [
+      46.93333333333333,
+      79.33200245700243
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.06016182747638606,
+      0.1350433033831782
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.058786272043720986,
+      0.14667391075471492
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      7.050767414403778,
+      22.519746097361224
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.007399772923028736
+    ]
+  },
+  {
+    "role": "test",
+    "method": "baq_3bit",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      6.015655517578125,
+      6.015655517578125
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.016217556408629447,
+      0.0513027715826303
+    ],
+    "a1_lost_fraction_ci": [
+      0.10978093988868376,
+      0.1560546263762149
+    ],
+    "a1_new_robust_per_map_ci": [
+      2.4207349075860525,
+      9.08204613468454
+    ],
+    "a1_new_per_map_ci": [
+      33.899987909384016,
+      48.34871794871795
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.01505999949484057,
+      0.05113989618138606
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.014232654428106067,
+      0.05332557746127752
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      2.6410691925829886,
+      10.063991149725355
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "test",
+    "method": "uniform_2bit",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      4.0000457763671875,
+      4.0000457763671875
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.9259528923929545,
+      0.9674581988948776
+    ],
+    "a1_lost_fraction_ci": [
+      0.9300079475936045,
+      0.9675045316936404
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.5825785846263588,
+      13.758766883766882
+    ],
+    "a1_new_per_map_ci": [
+      131.4924169124467,
+      201.82744282744284
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.9370400360986809,
+      0.9715542696317256
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.9343066901600751,
+      0.9701020570156746
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.4474053295932679,
+      11.778416187989555
+    ],
+    "labels_lost_fraction_ci": [
+      0.83309239432703,
+      0.9534420886346983
+    ]
+  },
+  {
+    "role": "test",
+    "method": "uniform_3bit",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      6.0000457763671875,
+      6.0000457763671875
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.6453175380523761,
+      0.7983070167216844
+    ],
+    "a1_lost_fraction_ci": [
+      0.7019228245061682,
+      0.8106189655956343
+    ],
+    "a1_new_robust_per_map_ci": [
+      81.09988022795652,
+      103.04737732656514
+    ],
+    "a1_new_per_map_ci": [
+      471.1328320802005,
+      743.1768388106416
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.6670915940484797,
+      0.8315163035820633
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.6732294951702218,
+      0.8291696009050923
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      65.5842395644283,
+      94.00628930817611
+    ],
+    "labels_lost_fraction_ci": [
+      0.23213876146788992,
+      0.5183823529411765
+    ]
+  },
+  {
+    "role": "test",
+    "method": "uniform_4bit",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      8.000045776367188,
+      8.000045776367188
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.3946452590077504,
+      0.594808165722472
+    ],
+    "a1_lost_fraction_ci": [
+      0.5270176271991585,
+      0.6966183173803703
+    ],
+    "a1_new_robust_per_map_ci": [
+      21.172291282380304,
+      31.12289156626506
+    ],
+    "a1_new_per_map_ci": [
+      84.42280701754386,
+      116.47441860465116
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.4017024377860939,
+      0.614803837841086
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.4137897490943244,
+      0.6076594571572888
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      22.340350877192982,
+      32.53652392947103
+    ],
+    "labels_lost_fraction_ci": [
+      0.013440860215053764,
+      0.05500627373846976
+    ]
+  },
+  {
+    "role": "test",
+    "method": "blockdct_r008_q8",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      1.3406982421875,
+      1.3406982421875
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.50994427420494,
+      0.5781504006082971
+    ],
+    "a1_lost_fraction_ci": [
+      0.5396353849401996,
+      0.6130718786733703
+    ],
+    "a1_new_robust_per_map_ci": [
+      434.1779390418128,
+      585.4555921052631
+    ],
+    "a1_new_per_map_ci": [
+      1081.825925925926,
+      1344.9754098360656
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.5252185664725783,
+      0.59493184927019
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.5114487001853113,
+      0.5853612430271057
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      431.98856068868287,
+      588.7307915074985
+    ],
+    "labels_lost_fraction_ci": [
+      0.031668696711327646,
+      0.14676258992805755
+    ]
+  },
+  {
+    "role": "test",
+    "method": "blockdct_r014_q8",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      2.3089599609375,
+      2.3089599609375
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.4587136187450569,
+      0.5160961856275177
+    ],
+    "a1_lost_fraction_ci": [
+      0.5024597001870148,
+      0.5702125414801349
+    ],
+    "a1_new_robust_per_map_ci": [
+      362.73416513260884,
+      534.5647182010199
+    ],
+    "a1_new_per_map_ci": [
+      906.8591549295775,
+      1222.1134327892248
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.47188955213630335,
+      0.5295206038477097
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.45992044380330455,
+      0.5215094241783534
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      358.9828075333757,
+      547.3507561290194
+    ],
+    "labels_lost_fraction_ci": [
+      0.016211604095563138,
+      0.10844495460351429
+    ]
+  },
+  {
+    "role": "test",
+    "method": "blockdct_r020_q8",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      3.2698974609375,
+      3.2698974609375
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.4072359392863662,
+      0.4518608637217369
+    ],
+    "a1_lost_fraction_ci": [
+      0.46319230500116576,
+      0.5219175957697246
+    ],
+    "a1_new_robust_per_map_ci": [
+      305.1129807692308,
+      487.5866464869752
+    ],
+    "a1_new_per_map_ci": [
+      773.4622338219026,
+      1108.1034112595419
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.4152995235881241,
+      0.46198820308214184
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.41002814109484786,
+      0.45600675467289825
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      300.4232861806311,
+      503.2675105788179
+    ],
+    "labels_lost_fraction_ci": [
+      0.010073739799866638,
+      0.08669354838709678
+    ]
+  },
+  {
+    "role": "test",
+    "method": "closed_g0_b2",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      1.2136450496915943,
+      1.446771264825977
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.001874471325037785,
+      0.002778764237047993
+    ],
+    "a1_lost_fraction_ci": [
+      0.12310477635832659,
+      0.13418387841754914
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      94.49049429657795,
+      98.89146210836383
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.012656182250881692,
+      0.014520236376286626
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.051103035369130745,
+      0.09544105535878908
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      1.6514698443356097,
+      2.8330908361106375
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "test",
+    "method": "closed_strict2_g0_b2",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      2.3216286179080656,
+      2.5356916056569756
+    ],
+    "a1_lost_robust_fraction_ci": [
+      1.084789301373994e-05,
+      0.0002637143680378186
+    ],
+    "a1_lost_fraction_ci": [
+      0.01207652465414399,
+      0.013245061582443093
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.005026079765918194
+    ],
+    "a1_new_per_map_ci": [
+      0.3779125626404009,
+      0.4938636068813183
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.004916316732761069,
+      0.006147187622828334
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.03827348377154784,
+      0.07854822950911225
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.9903401718763165,
+      2.3046683046683047
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "test",
+    "method": "closed_full_b2",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      3.220244537740713,
+      3.268270656713033
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_lost_fraction_ci": [
+      0.13153407909510542,
+      0.15763820502733944
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      24.629464285714285,
+      27.154772937905467
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.012835997809403062,
+      0.01561706300199636
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.014021922786182101,
+      0.018771673678388327
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.08296808510638297,
+      0.14696017176815368
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "test",
+    "method": "closed_full_b1p5",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      3.832417590063564,
+      3.8695111860399662
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_lost_fraction_ci": [
+      0.09512928762811872,
+      0.11181087441878539
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      24.352459016393443,
+      26.6736510535253
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.003241849453001687,
+      0.003808930979799327
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.0041453050426300915,
+      0.007156842332441632
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.01967799642218247,
+      0.03636363636363636
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "role": "test",
+    "method": "closed_full_b2p5",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      2.8900260949486647,
+      2.94316122045681
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.0,
+      4.606617845228297e-05
+    ],
+    "a1_lost_fraction_ci": [
+      0.1634246465711636,
+      0.19839191753784255
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      24.424107142857142,
+      26.88577567531537
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.022154902985623896,
+      0.03107486806181371
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.027105066885496094,
+      0.03335526805890095
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.12098765432098765,
+      0.24564901120522908
+    ],
+    "labels_lost_fraction_ci": [
+      0.0010141730940358535,
+      0.0082427536231884
+    ]
+  },
+  {
+    "role": "test",
+    "method": "closed_full_b3",
+    "recordings": 7,
+    "cubes": 662,
+    "bpcs_ci": [
+      2.7244959960997184,
+      2.7721586114129546
+    ],
+    "a1_lost_robust_fraction_ci": [
+      0.0,
+      0.00011846068313050063
+    ],
+    "a1_lost_fraction_ci": [
+      0.1906881169357222,
+      0.23325334264638317
+    ],
+    "a1_new_robust_per_map_ci": [
+      0.0,
+      0.0
+    ],
+    "a1_new_per_map_ci": [
+      24.892375145744264,
+      25.870448772226926
+    ],
+    "a01_lost_robust_fraction_ci": [
+      0.030001932515034774,
+      0.04312330235379442
+    ],
+    "os_a1_lost_robust_fraction_ci": [
+      0.04126430285364155,
+      0.04924497952423654
+    ],
+    "os_a1_new_robust_per_map_ci": [
+      0.16266666666666665,
+      0.2800116054158607
+    ],
+    "labels_lost_fraction_ci": [
+      0.0,
+      0.004411764705882353
+    ]
+  }
+]

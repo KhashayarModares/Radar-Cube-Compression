@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "checkpoint": "checkpoints/arm_0_update_0336.pt",
+  "checkpoint_sha256": "51a26f950a62a9fbdfb80c54cd965a9bf0d96a736fbf5677bebbac4e15c46df2",
+  "source": "tuned.1.0.0-v12-40-model-radial-reward-bounds-prices",
+  "trained_in_this_run": true,
+  "test_used_for_selection": false
+}

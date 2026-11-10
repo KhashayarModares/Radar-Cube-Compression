@@ -340,10 +340,6 @@ python -B tools/paper_figure_qualitative_ppo.py --run weights/radial \
 
 Labels are counted only when the decoded peak lies at an original supporting peak ("same-peak" labels). This is stricter than counting any decoded peak in the label gate. The Learned ECDQ context model is transferred from RADIal without retraining.
 
-<p align="center"><img src="figures/fig_uw_ppo_tradeoff.png" width="80%" alt="UWCR trade-off"></p>
-
-*Supplementary: UWCR test trade-off of labels, robust detections and robust false peaks against rate. More training diagnostics are in `figures/fig_uw_ppo_training.png`, `fig_uw_ppo_validation.png` and `fig_uw_ppo_allocation.png`. These figures are not in the paper.*
-
 ### 6.3 Limitations, as stated in the paper
 
 - **Codec versus policy.** A validation-selected uniform setting $(\rho,q)=(0.75,5)$ keeps 97.6% of RADIal robust detections at 2.86 bpcs. On UWCR, the fixed setting $(0.25,5)$ keeps 98.6% at 1.13 bpcs, close to the policy's 98.7% at 1.23 bpcs. Most of the benefit comes from the codec. PPO provides automatic rate allocation, not a consistent gain over fixed allocations.
